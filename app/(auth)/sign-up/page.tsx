@@ -1,9 +1,5 @@
 import React from 'react'
+import AuthForm from '@/components/AuthForm'
+const SingUp = () => <AuthForm type="sign-up"/>;
 
-const SingUp = () => {
-  return (
-    <div>SingUp</div>
-  )
-}
-
-export default SingUp
+export default SingUp;
